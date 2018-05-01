@@ -9,3 +9,11 @@ $secureLinks
 $pdfs
 	.attr('download', true)
 	.addClass('pdf');
+
+	$pdfs.on('click', function(event) {
+		if ($(':checked').length === 0) {
+			event.preventDefault();
+			alert('Please check the box to allow PDF downloads');
+		}
+	});
+	
