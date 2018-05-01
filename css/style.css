@@ -25,6 +25,25 @@ a {
 	text-decoration: none;
 }
 
+a.secure:after,
+a.pdf:after {
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 3px;
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+a.secure:after {
+	content: "Safe";
+	background-color: #64ce83;
+}
+
+a.pdf:after {
+	content: "Locked";
+	background-color: #de565b;
+}
+
 ul {
 	margin-bottom: 2em;
 }
