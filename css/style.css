@@ -31,7 +31,7 @@ a.pdf:after {
 	padding: 3px 6px;
 	border-radius: 3px;
 	font-size: 10px;
-	margin-left: 5px;
+	margin: 0 5px;
 }
 
 a.secure:after {
