@@ -1,2 +1,5 @@
-# simple-newsfeed-application
-Simple Newsfeed application using jQuery
+# Simple Newsfeed Application
+
+Newsfeed application built using jQuery  
+
+Treehouse class project
